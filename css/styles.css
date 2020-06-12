@@ -11,8 +11,14 @@ body  {
 
 .jumbotron  {
   opacity: 70%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: black;
 }
-
+h5  {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
 #output {
   color: greenyellow;
   font-family: monospace;
