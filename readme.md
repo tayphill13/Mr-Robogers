@@ -1,6 +1,6 @@
 # _Mr Robogers Neighborhood_
 
-#### _An application that will return a Robotic greeting to the user, 6.12.2020_
+#### _An application that will return a Robotic greeting to the user when a number is entered, 6.12.2020_
 
 #### By _**Taylor Phillips**_
 

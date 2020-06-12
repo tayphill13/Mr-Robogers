@@ -1,13 +1,20 @@
+body  {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Funny-Robot-Wallpaper.jpg");
+  background-size: 87%;
+  background-color: rgb(32, 32, 32);
+}
+.jumbotron  {
+  opacity: 60%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: whitesmoke;
+  background-color: black;
+}
 .btn  {
   background-color: black;
   color: whitesmoke;
   border-radius: 7%;
   box-shadow: 1px 2px 3px rgb(85, 85, 85);
-}
-body  {
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Funny-Robot-Wallpaper.jpg");
-  background-size: 87%;
-  background-color: rgb(32, 32, 32);
 }
 h1  {
   font-family: Georgia, serif;
@@ -19,13 +26,6 @@ a {
 input {
   font-size: 90%;
   box-shadow: 1px 1px 1px rgb(32, 32, 32) inset;
-}
-.jumbotron  {
-  opacity: 60%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bolder;
-  color: whitesmoke;
-  background-color: black;
 }
 label {
   font-family: 'sans-serif';

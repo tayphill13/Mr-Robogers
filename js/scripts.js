@@ -1,15 +1,15 @@
 // Business Logic ------------- //
 function robotSpeak(stringToNum) {
 let rangeArray = [];
-for (let index =0; index <= stringToNum; index+=1)  {
-  if (index.toString().includes("3")) {
+for (let i =0; i <= stringToNum; i+=1)  {
+  if (i.toString().includes("3")) {
     rangeArray.push(" Won't you be my neighbor, "+($("#nameInput").val())+"?");
-  } else if (index.toString().includes("2")) {
+  } else if (i.toString().includes("2")) {
     rangeArray.push(" Boop");
-  } else if (index.toString().includes("1"))  {
+  } else if (i.toString().includes("1"))  {
     rangeArray.push(" Beep!");
   } else {
-    rangeArray.push(index);
+    rangeArray.push(i);
   }
 } 
   return rangeArray;
