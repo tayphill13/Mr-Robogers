@@ -1,6 +1,6 @@
-# _Project Title_
+# _Mr Robogers Neighborhood_
 
-#### _Description, Date_
+#### _An application that will return a greeting to the user, 6.12.2020_
 
 #### By _**Taylor Phillips**_
 
