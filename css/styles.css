@@ -16,4 +16,5 @@ body  {
 #output {
   color: greenyellow;
   font-family: monospace;
+  font-size: 2rem;
 }
