@@ -33,7 +33,9 @@ _You can contact me through my github page_
 
 _HTML_
 _CSS_
+_Bootstrap_
 _JavaScript_
+_jQuery_
 _VSCode_
 
 ### License
