@@ -3,7 +3,7 @@ function robotSpeak(stringToNum) {
 let rangeArray = [];
 for (let index =0; index <= stringToNum; index+=1)  {
   if (index.toString().includes("3")) {
-    rangeArray.push("Won't you be my neighbor?");
+    rangeArray.push("Won't you be my neighbor, " + ($("#nameInput").val()) + "?");
   } else if (index.toString().includes("2")) {
     rangeArray.push("Boop.");
   } else if (index.toString().includes("1"))  {
@@ -22,6 +22,7 @@ $(document).ready(function()  {
     event.preventDefault();
     let stringToNum = parseInt($("#stringInput").val());
     let output = robotSpeak(stringToNum);
+    var name = $("#nameInput").val();
     $("#output").text(output);
   })
 })
