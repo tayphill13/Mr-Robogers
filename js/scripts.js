@@ -7,17 +7,14 @@ for (let index =0; index <= stringToNum; index+=1)  {
     rangeArray.push("Won't you be my neighbor?");
   } else if (index === 2) {
     rangeArray.push("Boop.");
+  } else if (index === 1)  {
+    rangeArray.push("Beep!");
   } else {
     rangeArray.push(index);
   }
-}
+} 
   return rangeArray;
 }
-
-
-
-
-
 
 
 // User Interface Logic  ------------- //
