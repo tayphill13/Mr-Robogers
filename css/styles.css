@@ -21,16 +21,13 @@ a {
   color: whitesmoke;
   background-color: black;
 }
-h5  {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-}
 label{
   font-family: 'sans-serif';
 }
 #output {
   color: greenyellow;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'serif';
   font-size: 24px;
   font-weight: lighter;
+  text-shadow:  2px 2px 8px rgb(32, 32, 32);
 }
