@@ -6,7 +6,14 @@
 
 ## Description
 
-_Detailed description of the application_
+_This web application was a friday project that required the use of a JavaScript loop.  When a user enters a number and pushes submit, a range of numbers will be returned that go from 0 to the number selected/inputted by the user.  Additionally, in that return, every number containing a 1 will be returned as a "Beep!" instead of that number.  If the number value contains a 2 in the list of numbers then that number will instead be returned as the word, "Boop." . And if the number in the list has a 3, then it will be returned as "Won't you be my neighbor?" For this web application, "3's" will override the return action of the 2 and the 1, and "2's" will override the return action of the 1_
+
+   ### Application Specs
+
+  | Behavior  | Sample Input | Output |
+  | :--------:  | :---------: | :-----: |
+  | When user provides a number, a range of numbers will be returned in the order of 0 to that number given  |  7 | 0,1,2,3,4,5,6,7  |
+  | 
 
 ## Setup/Installation Requirements
 
