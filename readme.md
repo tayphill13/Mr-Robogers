@@ -2,7 +2,7 @@
 
 #### _An application that will return a Robotic greeting to the user when a number is entered, 6.12.2020_
 
-#### By _**Taylor Phillips**_
+#### By _**<ins>Taylor Phillips</ins>**_
 
 ## Description
 
@@ -12,11 +12,11 @@ _This web application was a friday project that required the use of a JavaScript
 
 | Behavior  | Sample Input | Output |
 | :--------:  | :---------: | :-----: |
+| When user provides a number, a range of numbers will be returned in the order of 0 to that number |  7 | 0, 1, 2, 3, 4, 5, 6, 7  |
 | When a number in the list contains a 1, it will be returned as "Beep!"  | 10, 11, 51 etc.| Beep! |
 | If a number in the list contains a 2 then it will return "Boop." and disregard the 1's condition | 12, 24, 42 etc. | Boop |
 | When there is a 3 within a number, it will be switched to "Won't you be my neighbor?" and disregard the conditions for 1's and 2's on that number | 13, 23, 132 etc. | Won't you be my neighbor? |
-| When user provides a number, a range of numbers will be returned in the order of 0 to that number given with all appropriate replacements |  7 | 0, Beep! ,Boop ,Won't you be my neighbor? ,4 ,5 ,6 ,7  |
-| If user enters a name then the application will add their name to the "3's" replacement | Taylor,  13  | Won't you be my neighbor, Taylor?
+| <ins>If</ins> user enters a name then the application will add their name to the "3's" replacement | Taylor,  13  | Won't you be my neighbor, Taylor?
 
 ## Setup/Installation Requirements
 
@@ -29,7 +29,7 @@ _This web application was a friday project that required the use of a JavaScript
 * _Other option is to go to Repository on Github and download zip_
 * _Retrieve zip file in downloads on computer and double click to unpack_
 * _Find the project folder on desktop or downloads folder_
-* _Run index.html with web browserThis is a great place_
+* _Run index.html with web browser_
 
 ## Known Bugs
 
