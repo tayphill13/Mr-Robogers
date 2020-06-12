@@ -19,8 +19,12 @@ h5  {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
 }
+label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #output {
   color: greenyellow;
-  font-family: monospace;
-  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: lighter;
 }

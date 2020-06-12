@@ -3,9 +3,9 @@ function robotSpeak(stringToNum) {
 let rangeArray = [];
 for (let index =0; index <= stringToNum; index+=1)  {
   if (index.toString().includes("3")) {
-    rangeArray.push("Won't you be my neighbor, " + ($("#nameInput").val()) + "?");
+    rangeArray.push("Won't you be my neighbor "+($("#nameInput").val())+"?");
   } else if (index.toString().includes("2")) {
-    rangeArray.push("Boop.");
+    rangeArray.push("Boop");
   } else if (index.toString().includes("1"))  {
     rangeArray.push("Beep!");
   } else {
