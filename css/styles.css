@@ -2,3 +2,18 @@
   background-color: black;
   color: whitesmoke;
 }
+
+body  {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Funny-Robot-Wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron  {
+  opacity: 70%;
+}
+
+#output {
+  color: greenyellow;
+  font-family: monospace;
+}
