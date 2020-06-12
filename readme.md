@@ -6,18 +6,16 @@
 
 ## Description
 
-_This web application was a friday project that required the use of a JavaScript loop.  When a user enters a number and pushes submit, a range of numbers will be returned that go from 0 to the number selected/inputted by the user.  Additionally, in that return, every number containing a 1 will be returned as a "Beep!" instead of that number.  If the number value contains a 2 in the list of numbers then that number will instead be returned as the word, "Boop." . And if the number in the list has a 3, then it will be returned as "Won't you be my neighbor?" For this web application, "3's" will override the return action of the 2 and the 1, and "2's" will override the return action of the 1_
+_This web application was a friday project that required the use of a JavaScript loop.  When a user enters a number and pushes submit, the application will return a range of numbers counting from 0 to the number selected/inputted by the user.  Additionally, within that range of numbers, if a number contains a 1, a 2, or a 3, that number will be replaced with a robot-like response.
 
    ### Application Specs
 
 | Behavior  | Sample Input | Output |
 | :--------:  | :---------: | :-----: |
-| When user provides a number, a range of numbers will be returned in the order of 0 to that number given  |  7 | 0,1,2,3,4,5,6,7  |
-| When a number in the list contains a 1, it will be returned as "Beep!"  | 5 | 0,Beep!,2,3,4,5 |
-| If a number in the returned list of numbers contains a 2 then it will return "Boop."  | 7 | 0,Beep!,Boop.,3,4,5,6,7 |
-| When there is a 3 within a number, it will be switched to "Won't you be my neighbor?" | 3 | 0,Beep!,Boop.,Won't you be my neighbor? |
-| Within the returned number range, Number's containing 2's will ovverride 1's  | 12  | 0,.....8,9,Beep!,Beep!,Boop.  |
-| As 2's override 1's, number's containing a 3 will override both 1's and 2's to return "Won't you be my neighbor" | 132 | 0,.......,Won't you be my neighbor? |
+| When a number in the list contains a 1, it will be returned as "Beep!"  | 10 | Beep! |
+| If a number in the list contains a 2 then it will return "Boop." and disregard the 1's condition | 12 | Boop. |
+| When there is a 3 within a number, it will be switched to "Won't you be my neighbor?" and disregard the conditions for 1's and 2's on that number | 132 | Won't you be my neighbor? |
+| When user provides a number, a range of numbers will be returned in the order of 0 to that number given  |  7 | 0,Beep!,Boop.,Won't you be my neighbor?,4,5,6,7  |
 
 ## Setup/Installation Requirements
 
