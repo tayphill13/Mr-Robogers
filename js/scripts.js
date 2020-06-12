@@ -22,7 +22,6 @@ $(document).ready(function()  {
     event.preventDefault();
     let stringToNum = parseInt($("#stringInput").val());
     let output = robotSpeak(stringToNum);
-    var name = $("#nameInput").val();
     $("#output").text(output);
   })
 })
