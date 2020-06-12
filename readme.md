@@ -8,7 +8,7 @@
 
 _This web application was a friday project that required the use of a JavaScript loop.  When a user enters a number and pushes submit, the application will return a range of numbers counting from 0 to the number selected/inputted by the user.  Additionally, within that range of numbers, if a number contains a 1, a 2, or a 3, that number will be replaced with a robot-like response.  The user can also enter their name if they wish, but it is not required.  If the user enters a name then the application will communicate using the name provided.
 
-   ### Application Specs
+   ## Application Specs
 
 | Behavior  | Sample Input | Output |
 | :--------:  | :---------: | :-----: |
@@ -17,6 +17,10 @@ _This web application was a friday project that required the use of a JavaScript
 | If a number in the list contains a 2 then it will return "Boop." and disregard the 1's condition | 12, 24, 42 etc. | Boop |
 | When there is a 3 within a number, it will be switched to "Won't you be my neighbor?" and disregard the conditions for 1's and 2's on that number | 13, 23, 132 etc. | Won't you be my neighbor? |
 | <ins>If</ins> user enters a name then the application will add their name to the "3's" replacement | Taylor,  13  | Won't you be my neighbor, Taylor?
+
+### Check it out on gh-pages 
+*  <https://tayphill13.github.io/Mr-Robogers/>
+
 
 ## Setup/Installation Requirements
 
