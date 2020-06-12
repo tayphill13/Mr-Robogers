@@ -5,6 +5,8 @@ let rangeArray = [];
 for (let index =0; index <= stringToNum; index+=1)  {
   if (index === 3) {
     rangeArray.push("Won't you be my neighbor?");
+  } else if (index === 2) {
+    rangeArray.push("Boop.");
   } else {
     rangeArray.push(index);
   }
