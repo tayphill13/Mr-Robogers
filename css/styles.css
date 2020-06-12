@@ -4,23 +4,22 @@
 }
 body  {
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Funny-Robot-Wallpaper.jpg");
-  background-size: 85%;
-  background-repeat: no-repeat;
+  background-size: 87%;
   background-color: rgb(32, 32, 32);
 }
 h1  {
   font-family: Georgia, serif;
 }
 a {
-  color: black;
+  color:  white;
 }
-/* .jumbotron  {
-  opacity: 70%;
+.jumbotron  {
+  opacity: 60%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
   color: whitesmoke;
   background-color: black;
-} */
+}
 h5  {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
